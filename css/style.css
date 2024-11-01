@@ -1,0 +1,45 @@
+/* 
+ BMI Calculator Plugin
+ Style.css
+*/
+
+.bmic {
+    width: 280px;
+    margin: 15px auto;
+}
+
+.bmic-row {
+    margin: 5px 0px;
+}
+
+.bmic label {
+    width: 50px;
+    float: left;
+}
+
+.bmic input[type="button"] {
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.bmic input[type="text"]{
+    width: 80px;
+}
+
+.bmic-row span{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bmic-result{
+    width: 100%;
+    float: left;
+    margin: 15px 0px;
+    font-size: 16px;
+    display:none;
+}
+
+.bmic-score{
+    font-size: 12px;
+    padding-top: 5px;
+}
